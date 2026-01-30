@@ -47,26 +47,51 @@
 
 ## 🚀 快速開始
 
-### 安裝依賴
-```bash
-npm install
-```
+### 方式一：直接使用（推薦）
 
-### 開發模式
-```bash
-npm run dev
-```
-開啟瀏覽器訪問 `http://localhost:5173`
+**下載編譯好的單檔版本，無需安裝任何工具！**
 
-### 生產建構
-```bash
-npm run build
-```
+1. **編譯專案生成單檔 HTML**
+   ```bash
+   npm install
+   npm run build
+   ```
 
-### 預覽建構結果
-```bash
-npm run preview
-```
+2. **開啟檔案**
+   - 編譯後會在 `dist/` 目錄生成 `index.html`（約 840KB）
+   - 直接用瀏覽器開啟 `dist/index.html` 即可使用
+   - 所有 CSS 和 JavaScript 已內嵌在單個檔案中
+
+3. **特點**
+   - ✅ 無需伺服器，雙擊即用
+   - ✅ 完整功能，離線可用
+   - ✅ 資料存在瀏覽器本地 IndexedDB
+   - ✅ 可分享給他人使用
+
+### 方式二：開發模式
+
+**適合需要修改程式碼的開發者**
+
+1. **安裝依賴**
+   ```bash
+   npm install
+   ```
+
+2. **啟動開發伺服器**
+   ```bash
+   npm run dev
+   ```
+   開啟瀏覽器訪問 `http://localhost:5173`
+
+3. **生產建構**
+   ```bash
+   npm run build
+   ```
+
+4. **預覽建構結果**
+   ```bash
+   npm run preview
+   ```
 
 ## 📁 專案結構
 
